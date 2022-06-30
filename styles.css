@@ -1,0 +1,49 @@
+:root{
+	--spacing: 28px;
+}
+
+html,body {
+	height: 100%;
+}
+
+body{
+	background-color: #1E6F9D;
+}
+
+header{
+	margin: 90px;
+	padding-top: 25px;
+	font-size: 50pt;
+	text-align: center;
+	color: white;
+	font-family: Libre Baskerville;
+	
+}
+
+footer {
+	color: white;
+	text-align: center;
+	font-size: 15pt;
+	font-family: Inter;
+	
+}
+
+form{
+	text-align: center;
+	font-family: Inter;
+	font-style: Italic
+	color: green;
+
+}
+main {
+	margin: var(--spacing);
+	font-size: 20pt;
+	text-align: left;
+	color: #45A0D2;
+}
+
+.btn {
+    min-width: 250px;
+    font-size: 30pt;
+    font-family: Arial;
+}
